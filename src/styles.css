@@ -1,1 +1,75 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: "Segoe UI Variable", sans-serif;
+    background-color: #F3F3F3;
+    color: #1B1B1B;
+}
+
+button {
+    border-radius: 8px;
+    padding: 8px 16px;
+    background-color: #0078D4;
+    color: #fff;
+    border: none;
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    background-color: #005A9E;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: "Segoe UI Variable", sans-serif;
+    font-size: 14px;
+    color: #1B1B1B;
+    background-color: #FFF;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px 16px;
+    text-align: left;
+}
+
+th {
+    background-color: #E0E0E0;
+    font-weight: 600;
+    color: #333;
+    border-bottom: 2px solid #E0E0E0;
+}
+
+td {
+    border-bottom: 1px solid #E0E0E0;
+}
+
+tr:nth-child(even) {
+    background-color: #FCFCFC   ;
+}
+
+
+tr:hover {
+    background-color: #eeeeee;
+}
+
+.date-range {
+    display: flex;           
+    gap: 16px;               
+    align-items: center;     
+    margin-bottom: 16px;     
+}
+
+.date-range label {
+    font-weight: 500;
+    min-width: 80px;        
+}
+
+.date-range input {
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: 1px solid #CCC;
+    font-family: "Segoe UI Variable", sans-serif;
+}
